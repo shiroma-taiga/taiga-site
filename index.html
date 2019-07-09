@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://getbootstrap.com/docs/4.3/examples/blog/ -->
+<html lang="ja" class="translated-ltr">
+
+<head>
+  <link rel="stylesheet" href="C:\Users\しろま　たいが\Desktop\intoroduction\bootstrap\.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.5">
+  <title>しろまたいが</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/blog/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href=".js">
+  <!-- Custom styles for this template -->
+  <link href="./ブログテンプレート・ブートストラップ_files/css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="./ブログテンプレート・ブートストラップ_files/blog.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="./ブログテンプレート・ブートストラップ_files/translateelement.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1">
+          <a class="text-muted">
+            <font style="vertical-align: inherit;">
+              <span id="view_time"></span>
+
+              <script type="text/javascript">
+                document.getElementById("view_time").innerHTML = getNow();
+
+                function getNow() {
+                  var now = new Date();
+                  var year = now.getFullYear();
+                  var mon = now.getMonth() + 1; //１を足すこと
+                  var day = now.getDate();
+                  var hour = now.getHours();
+                  var min = now.getMinutes();
+                  var sec = now.getSeconds();
+
+                  //出力用
+                  var s = year + " / " + mon + " / " + day + " /" + hour + ":" + min;
+                  return s;
+                }
+              </script>
+            </font>
+          </a>
+        </div>
+        <div class="col-4 text-center">
+          <a href=".js"></a>
+          <a class="blog-header-logo text-dark">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Shiroma Taiga</font>
+            </font>
+          </a>
+
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <a class="text-muted" href="https://getbootstrap.com/docs/4.3/examples/blog/#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+              viewBox="0 0 24 24" focusable="false">
+              <title>Search</title>
+              <circle cx="10.5" cy="10.5" r="7.5"></circle>
+              <path d="M21 21l-5.2-5.2"></path>
+            </svg>
+          </a>
+          <a class="btn btn-sm btn-outline-secondary" href="https://getbootstrap.com/docs/4.3/examples/blog/#">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;" class="btn">検索</font>
+            </font>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="nav-scroller py-1 mb-2">
+
+      <a class="p-2 text-muted" href="C:\Users\しろま　たいが\Desktop\intoroduction\bootstrap\index.html">
+
+        <font style="vertical-align: inherit;">躰道1</font>
+      </a>
+      <a class="p-2 text-muted" href="C:\Users\しろま　たいが\Desktop\intoroduction\bootstrap\taido2.html">
+
+        <font style="vertical-align: inherit;">躰道２</font>
+
+      </a>
+      <a class="p-2 text-muted" href="C:\Users\しろま　たいが\Desktop\intoroduction\bootstrap/taido3.html">
+
+        <font style="vertical-align: inherit;">躰道3</font>
+
+      </a>
+      </nav>
+    </div>
+
+    <div class="wrap-video">
+      <div class="text">
+        <p class="headline">武道ですよ</p>
+      </div>
+      <video 　width="100%" src="動画\中野先生.mp4" muted autoplay loop></video>
+
+    </div>
+
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-12 blog-main">
+          <h3 class="pb-4 mb-4 border-bottom">
+            <font style="vertical-align: inherit;">
+              躰道とはなんぞや
+            </font>
+          </h3>
+
+          <div class="blog-post">
+            <p class="blog-post-meta">
+              <font style="vertical-align: inherit;">
+                大体50年前に生まれた武道
+              </font>
+              <a href="https://ja.wikipedia.org/wiki/%E8%BA%B0%E9%81%93">
+                <font style="vertical-align: inherit;">wiki</font>
+              </a>
+            </p>
+
+            <p>
+              <font style="vertical-align: inherit;">
+                <font style="vertical-align: inherit;"> 空手道から生まれた武道で空手にアクロバットが加わったような武道です</font>
+              </font>
+            </p>
+            <img class="bd-placeholder-img" width="300" height="300"
+              src="https://martial.website/wp-content/uploads/2017/10/taido1-320x249.jpg">
+            </img>
+            <img class="bd-placeholder-img" width="300" height="300"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRykDhLgT0Y8o2nCXyAAKNDbt9kb2Q-GVBmSK7BL1fPmlY1JWcF">
+            <img class="bd-placeholder-img" width="300" height="300"
+              src="https://www.u-tokyo.ac.jp/content/400071332.jpg">
+            <img class="bd-placeholder-img" width="300" height="300"
+              src="C:\Users\しろま　たいが\Desktop\intoroduction\bootstrap\動画\IMG_3384.JPG">
+            <hr>
+            <p>
+              <font style="vertical-align: inherit;">琉大割と入賞歴あるのに</font>
+            </p>
+            <blockquote>
+              <p>
+                <strong>
+                  <font style="vertical-align: inherit;">まともに出れる大会が全国大会しかありません<br>それに人も少ないです</font>
+                </strong>
+              </p>
+            </blockquote>
+
+            <div class="tecnique">
+              <h2>どんな技があるの？？？</h2>
+              <ul>
+                <h3>旋体 </h3>
+                <button class="sentai">見る</button>
+                <button class="sentai close">close</button>
+                <script>
+                  $('.sentai').click(function () {
+                    $('#sentai').fadeIn();
+                    $('.sentai').fadeIn();
+                  });
+                </script>
+                <script>
+                  $('.close').click(function () {
+                    $('#sentai').fadeOut();
+                    $('.close').fadeOut();
+                  });
+                </script>
+                <p>回ったときの遠心力を突きや蹴りに乗せて打つ技で、試合ではかなり重要になる技です</p><br>
+                <video id="sentai" class="videos" src="動画/側転せんたい.mp4" loop controls autoplay muted></video>
+                <h3>運体</h3>
+                <button class="untai">見る</button>
+                <button class="close untai">close</button>
+                <script>
+                  $('.untai').click(function () {
+                    $('#untai').fadeIn();
+                    $('.untai').fadeIn();
+                  });
+                </script>
+                <script>
+                  $('.close').click(function () {
+                    $('#untai').fadeOut();
+                    $('.close').fadeOut();
+                  });
+                </script>
+                <p>ジャンプして落ちてくるときの重さを技に乗せます。マブヤーのスーパーメーゴーサーがいい例です</p><br>
+                <video id="untai" class="videos" src="動画/跳び突き.mp4" loop controls autoplay muted></video>
+                <h3>変体</h3>
+                <button class="hentai">見る</button>
+                <button class="hentai close">close</button>
+                <script>
+                  $('.hentai').click(function () {
+                    $('#hentai').fadeIn();
+                    $('.hentai').fadeIn();
+                  });
+                </script>
+                <script>
+                  $('.close').click(function () {
+                    $('#hentai').fadeOut();
+                    $('.close').fadeOut();
+                  });
+                </script>
+                <p>シーソーの上がる側でアッパーされたら絶対痛いですよね。体を倒した勢いを使い、主に蹴りを放ちます</p><br>
+                <video id="hentai" class="videos" src="動画/卍蹴り.mp4" loop controls autoplay muted></video>
+                <h3>捻体</h3>
+                <button class="nentai">見る</button>
+                <button class="nentai close">close</button>
+                <script>
+                  $('.nentai').click(function () {
+                    $('#nentai').fadeIn();
+                    $('.nentai').fadeIn();
+                  });
+                </script>
+                <script>
+                  $('.close').click(function () {
+                    $('#nentai').fadeOut();
+                    $('.close').fadeOut();
+                  });
+                </script>
+                <p>体全体の捻りから放つ技です。特に半月当てという技は見た目に反し威力のある技です</p><br>
+                <video id="nentai" class="videos" src="動画\胴絡み.mp4" loop autoplay controls muted>
+                </video>
+                <h3>転体</h3>
+                <button class="tentai">見る</button>
+                <button class=" tentai close">close</button>
+                <script>
+                  $('.tentai').click(function () {
+                    $('#tentai').fadeIn();
+                    $('.tentai').fadeIn();
+                  });
+                </script>
+                <script>
+                  $('.close').click(function () {
+                    $('#tentai').fadeOut();
+                    $('.close').fadeOut();
+                  });
+                </script>
+                <p>躰道で最も華のある技ですね。側転や前転だけでなくバク宙も含め、その回転の勢いが技に繋がります</p><br>
+                <video id="tentai" class="videos" src="動画/ロン宙.mp4" loop autoplay controls muted></video>
+              </ul>
+
+            </div>
+          </div><!-- /.blog-post -->
+        </div>
+
+      </div>
+  </div><!-- /.row -->
+
+  <div class="next">
+    <a class="button" href="taido2.html">次のページ</a>
+
+  </div>
+
+  </main><!-- /.container -->
+
+  <footer class="blog-footer">
+
+  </footer>
+
+</body>
+
+</html>
